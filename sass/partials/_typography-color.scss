@@ -1,0 +1,11 @@
+$bg-color: #505050;
+$primarycolor: #FEBD01;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: $bg-color;
+}
