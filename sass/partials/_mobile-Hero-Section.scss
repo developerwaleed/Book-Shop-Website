@@ -1,0 +1,38 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: auto;
+    padding-top: 80px;
+    padding-right: 10px;
+    gap: 20px;
+
+    h1 {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    h3 {
+        padding: 0 10px;
+
+
+    }
+
+    span {
+        color: $primarycolor;
+    }
+}
+
+.logo {
+    align-self: center;
+}
+
+.vector1 {
+    align-self: flex-end;
+}
+
+.vector2 {
+    padding-top: 60px;
+    align-self: center;
+}

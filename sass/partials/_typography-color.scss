@@ -1,5 +1,6 @@
 $bg-color: #505050;
 $primarycolor: #FEBD01;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
     margin: 0;
@@ -8,4 +9,5 @@ $primarycolor: #FEBD01;
     text-decoration: none;
     list-style: none;
     color: $bg-color;
+    font-family: 'Lato', sans-serif;
 }
