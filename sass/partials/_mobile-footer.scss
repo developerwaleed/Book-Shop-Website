@@ -1,9 +1,15 @@
 footer {
-    margin-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    height: 15vh;
+    column-gap: 40px;
     p {
         width: 150px;
     }
+}
+
+.lineheight2 {
+    height: 1px;
+    margin-top: 3%;
 }

@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+
+    ul {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+    }
+}
+
+.sub-about {
+    font-size: 25px;
+    width: 80vw;
+    text-align: center;
+
+    p {
+        color: $bg-color;
+
+    }
+}
+
+.lineheightabout {
+    height: 1.5px;
+    width: 27%;
+    margin-top: 2%;
+    align-self: center;
+}
+
+.social-media-icons {
+    margin-top: 10px;
+}
+
+.logo2 {
+    align-items: flex-start;
+    align-content: flex-start;
+    align-self: flex-start;
+    justify-self: start;
+}
