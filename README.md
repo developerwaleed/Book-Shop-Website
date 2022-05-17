@@ -1,16 +1,23 @@
 # Capstone_Proeject: 
 
+## Milestone 0
+Set up the repository and tools.
+
+
 ## MileStone 1:
+- Mobile First.
+- Index.html and About.html has been made for mobile.
 
 ## Built With
 
-- HTML, CSS
-- Plain CSS
+- HTML, SASS
+- Grid, FlexBox is used to position the elements in DOM.
+- Javascript is used to make the website Interactive.
 - Linter is used to make the project useable and readble for everyone
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://caasperr.github.io/Portfolio/)
+[Live Demo Link](https://caasperr.github.io/Book-Store_Website/)
 
 
 
