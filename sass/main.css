@@ -21,6 +21,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: fixed;
+  background-color: #FEBD01;
+  width: 100vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -100,7 +103,7 @@
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: #FEBD01;
+  background-color: #505050;
   position: absolute;
   height: 4px;
   width: 30px;
@@ -189,6 +192,7 @@
 }
 
 .logo {
+  padding-top: 70px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -398,8 +402,9 @@ footer p {
 }
 
 .lineheightabout {
-  height: 1.5px;
-  width: 27%;
+  margin: auto auto;
+  height: 2px;
+  width: 30%;
   margin-top: 2%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;

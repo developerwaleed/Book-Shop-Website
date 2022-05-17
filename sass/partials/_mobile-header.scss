@@ -3,6 +3,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: fixed;
+    background-color: $primarycolor;
+    // opacity: 0.25;
+    width: 100vw;
     justify-content: space-between;
     // background: linear-gradient(to left, #f46b45, #eea849);
     color: #FFF;
@@ -60,7 +64,7 @@
 .menu-button::after {
     display: block;
     // background-color: #fff;
-    background-color: $primarycolor;
+    background-color: $bg-color;
     position: absolute;
     height: 4px;
     width: 30px;
