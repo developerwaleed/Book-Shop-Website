@@ -3,11 +3,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     position: fixed;
     background-color: $primarycolor;
     // opacity: 0.25;
     width: 100vw;
-    justify-content: space-between;
     // background: linear-gradient(to left, #f46b45, #eea849);
     color: #FFF;
     height: 50px;
@@ -22,10 +22,11 @@
     position: fixed;
     list-style-type: none;
     width: 100%;
-    margin-top: 60px;
+    margin-top: -7px;
     padding: 0;
     top: 0;
     left: 0;
+    height: 23px;
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 
     li {
@@ -36,10 +37,9 @@
         padding: 0.5em 0;
         width: 100%;
         color: white;
-        overflow: hidden;
 
     }
-    
+
     a {
         color: $primarycolor;
     }
@@ -113,8 +113,114 @@
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
 
-#menu-toggle:checked~.menu{
+#menu-toggle:checked~.menu {
     background-color: $bg-color;
     opacity: 0.98;
-    height: 100%;
+    margin-top: 7vh;
+    height: 93vh;
+
+}
+
+// .instead-logo {
+//      display: none;
+// }
+
+.instead-logo {
+    display: block;
+    font-family: 'Smooch', cursive;
+    font-size: 35px;
+    width: 42%;
+}
+
+.pre-navbar { 
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .nav-bar {
+    position: static;
+    }
+    .menu-button-container {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        position: static;
+        list-style-type: none;
+        width: 100vw;
+        margin-top: 0px;
+        padding: 0;
+        top: 0;
+        left: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    
+        li {
+            font-size: 1rem;
+            display: flex;
+            justify-content: center;
+            margin: 0 0;
+            padding:  0 0;
+            width: 20%;
+            color: white;
+            overflow: none;
+    
+        }
+    
+        a {
+            color: $bg-color;
+        }
+    }
+
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        border-radius: 2px;
+    }
+
+
+    #menu-toggle~.menu li {
+        height: 10px;
+        padding: 24px;
+        color: $bg-color;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    .pre-navbar {
+        display: flex;
+        justify-content: flex-end;
+        height: 8vh;
+        width: 100vw;
+        padding: 0 30px;
+        color: $primarycolor;
+        
+        ul {
+            display: flex;
+            gap: 10px;
+            
+            li {
+                font-size: 20px;
+                align-self: center;
+                color: white;
+                
+                img {
+                    opacity: 0.65;
+                }
+            }
+        }
+    }
+}
+
+.bg-color {
+    background-color: $bg-color;
 }
