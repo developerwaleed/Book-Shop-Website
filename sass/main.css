@@ -50,7 +50,7 @@
   position: fixed;
   list-style-type: none;
   width: 100%;
-  margin-top: -7px;
+  margin-top: -50px;
   padding: 0;
   top: 0;
   left: 0;
@@ -294,7 +294,6 @@
 }
 
 .hero h1 {
-  font-size: 20px;
   line-height: 1.5;
   text-align: center;
 }
@@ -324,6 +323,54 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 82vh;
+    gap: 0;
+  }
+  .hero h1,
+  .hero h3 {
+    font-family: 'Smooch', cursive;
+    font-size: 70px;
+  }
+  .hero span {
+    color: #96720c;
+    font-family: 'Smooch', cursive;
+    font-size: 70px;
+  }
+  .hero::after {
+    content: "";
+    background: url("/img/bgdesk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+  .vector1 {
+    display: none;
+  }
+  .vector3 {
+    display: none;
+  }
+  .logo {
+    display: none;
+  }
 }
 
 .book-section {

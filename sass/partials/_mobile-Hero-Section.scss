@@ -6,8 +6,9 @@
     padding-right: 10px;
     gap: 44px;
 
+
     h1 {
-        font-size: 20px;
+        // font-size: 20px;
         line-height: 1.5;
         text-align: center;
     }
@@ -23,6 +24,7 @@
     }
 }
 
+
 .logo {
     padding-top: 70px;
     align-self: center;
@@ -35,4 +37,53 @@
 .vector2 {
     padding-top: 30px;
     align-self: center;
+}
+
+@media (min-width: 768px) {
+
+    .hero {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 82vh;
+        gap: 0;
+
+        h1,
+        h3 {
+            font-family: 'Smooch', cursive;
+            font-size: 70px;
+        }
+        span {
+            color: #96720c;
+            font-family: 'Smooch', cursive;
+            font-size: 70px;
+        }
+        &::after {
+            content: "";
+            background: url('/img/bgdesk.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+
+    .vector1 {
+        display: none;
+    }
+
+    .vector3 {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
 }
