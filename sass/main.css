@@ -343,16 +343,16 @@
   .hero h1,
   .hero h3 {
     font-family: 'Poiret One', cursive;
-    font-size: 70px;
+    font-size: 50px;
   }
   .hero span {
     color: #96720c;
     font-family: 'Smooch', cursive;
-    font-size: 70px;
+    font-size: 50px;
   }
   .hero::after {
     content: "";
-    background: url("/img/bgdesk.png");
+    background-image: url("/img/bgdesk.png");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
