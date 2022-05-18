@@ -10,6 +10,11 @@
   font-family: 'Lato', sans-serif;
 }
 
+.numberclass {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder !important;
+}
+
 .nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -645,7 +650,7 @@ button img {
     margin: auto auto;
     height: 1px;
     width: 4rem;
-    margin-top: -0.5rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
   }
   .Hotbook-holder {

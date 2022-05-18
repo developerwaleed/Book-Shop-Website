@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: 'COCOGOOSE';
+    font-family: 'COCOGOOSE_10';
     src: url('cocogoose_pro_italic-trial-webfont.woff2') format('woff2'),
         url('cocogoose_pro_italic-trial-webfont.woff') format('woff');
     font-weight: normal;
@@ -111,7 +111,7 @@
 
 
 @font-face {
-    font-family: 'COCOGOOSE_10';
+    font-family: 'COCOGOOSE';
     src: url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
         url('cocogoose_pro-trial-webfont.woff') format('woff');
     font-weight: normal;
