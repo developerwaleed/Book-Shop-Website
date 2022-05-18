@@ -54,6 +54,14 @@ button {
     place-items: center center;
 }
 
+.lineHeightHotSection {
+    margin: auto auto;
+    height: 1px;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
 @media (min-width: 768px) {
 
     .hotSellingBooks {
@@ -71,6 +79,7 @@ button {
         margin-top: -0.5rem;
         margin-bottom: 2rem;
     }
+
 
     .Hotbook-holder {
         padding: 20px;

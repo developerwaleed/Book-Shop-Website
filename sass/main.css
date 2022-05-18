@@ -409,7 +409,7 @@
   height: auto;
   width: 100%;
   background-color: #272a31;
-  background-image: url("/img/program-x.png");
+  background-image: url("../img/program-x.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,6 +627,14 @@ button img {
   -ms-grid-columns: 150px 1fr;
       grid-template-columns: 150px 1fr;
   place-items: center center;
+}
+
+.lineHeightHotSection {
+  margin: auto auto;
+  height: 1px;
+  width: 4rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
