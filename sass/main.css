@@ -166,7 +166,7 @@
 #menu-toggle:checked ~ .menu {
   background-color: #272a31;
   opacity: 0.98;
-  margin-top: 7vh;
+  margin-top: 9vh;
   height: 93vh;
 }
 
@@ -285,6 +285,7 @@
   }
   #unique-item {
     display: block;
+    height: 2.25rem;
   }
 }
 
@@ -377,10 +378,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 82vh;
   }
   .hero h1 {
     padding-left: 5.5rem;
+    padding-top: 2rem;
   }
   .vector1 {
     display: none;
@@ -400,7 +401,7 @@
   }
   .header-text3 {
     padding-left: 5.5rem;
-    padding-bottom: 0;
+    padding-bottom: 50px;
   }
 }
 
@@ -449,6 +450,13 @@
   font-weight: 400;
   font-family: 'COCOGOOSE';
   color: #F7F7F8;
+}
+
+.booktitle {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'COCOGOOSE';
+  padding: 10px 0;
 }
 
 .btn {
@@ -500,7 +508,53 @@
 }
 
 .whitecolor {
-  color: white;
+  color: white !important;
+}
+
+.primarycolor {
+  color: #ec5242;
+}
+
+.moresection {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .book-section h3 {
+    padding: 50px 0;
+  }
+  .lineheight {
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+  }
+  .Books {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 20px;
+  }
+  .book-holder {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    background-color: #3c3f4675;
+    grid-column-gap: 10px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  .book-holder:hover {
+    border: 2px solid #fff;
+    margin-top: -1rem;
+  }
+  .btn {
+    display: none;
+  }
+  .moresection {
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin: 3rem 0;
+  }
 }
 
 .hotSellingBooks {
@@ -524,9 +578,6 @@ button {
   width: 85vw;
   background-color: white;
   border: 1px solid #272a31;
-}
-
-button a {
   font-weight: 300;
   font-size: 20px;
 }
@@ -559,27 +610,110 @@ button img {
           box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
 }
 
+.HotBooks {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  padding: 10px 30px;
+  grid-row-gap: 25px;
+}
+
+.Hotbook-holder {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 150px 1fr;
+      grid-template-columns: 150px 1fr;
+  place-items: center center;
+}
+
+@media (min-width: 768px) {
+  .hotSellingBooks h3 {
+    height: 5vh;
+  }
+  .lineHeightHotSection {
+    margin: auto auto;
+    height: 1px;
+    width: 4rem;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
+  }
+  .Hotbook-holder {
+    padding: 20px;
+  }
+  .HotBooks {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    gap: 10px;
+  }
+}
+
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-column-gap: 40px;
-          column-gap: 40px;
+  display: none;
 }
 
-footer p {
-  width: 150px;
-}
-
-.lineheight2 {
-  height: 0.1px;
-  margin-top: 2rem;
+@media (min-width: 768px) {
+  footer {
+    display: block;
+  }
+  .footerhead {
+    background-color: #2a2a2a;
+  }
+  .footertitle {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #919193;
+  }
+  .images {
+    padding: 50px 0;
+  }
+  .imgcontainer {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .lineHeightfooter {
+    margin: auto auto;
+    height: 1px;
+    width: 4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: #ec5242;
+  }
+  .footerfoot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: auto auto;
+  }
+  .footerfoot p {
+    font-size: 30px;
+    font-family: 'COCOGOOSE';
+  }
 }
 
 .about {

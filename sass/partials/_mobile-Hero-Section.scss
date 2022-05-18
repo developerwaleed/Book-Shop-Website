@@ -67,10 +67,10 @@
 
     .hero {
         display: flex;
-        height: 82vh;
 
         h1 {
             padding-left: 5.5rem;
+            padding-top: 2rem;
         }
 
     }
@@ -100,7 +100,6 @@
 
     .header-text3 {
         padding-left: 5.5rem;
-        padding-bottom: 0;
+        padding-bottom: 50px;
     }
-
 }

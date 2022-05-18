@@ -34,7 +34,7 @@
                     <li><a class="menu-item" href="./About.html">About</a></li>
                     <li><a class="menu-item" href="">BuyNow</a></li>
                     <li><a class="menu-item" href="">Contact</a></li>
-                    <li ><a class="menu-item5" href=""><div id="unique-item">BookStore</div></a</li>
+                    <li ><div id="unique-item">BookStore</div></li>
                 </ul>
         </nav>
     </header>
@@ -70,24 +70,52 @@
         </div>
 
         <div class="btn"><button><a href="#">Add to Cart</a></button></div>
+        <div class="moresection">
+            <a href="" class="whitecolor">Show All</a>
+        </div>
     </section>
 
     <section class="hotSellingBooks">
         <h3>Hot Selling Books 🔥</h3>
-        <div class=" lineheight bg-color"></div>
-
-        <div class="Books" id="HotBooks">
-           
+        <div class=" lineHeightHotSection bg-color"></div>
+        <div class="HotBooks" id="HotBooks">
+            <!-- <div class="book-holder">
+                <div class="image-holder">
+                    <img src="./img/Buku 2 (1).png" alt="" width="100">
+                </div>
+                <div class="description whitecolor">
+                    <div class="booktitle"> The Hobbits</div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nesciunt asperiores inventore alias quisquam cum!
+                </div>
+            </div> -->
         </div>
-
-        <div class="btn2"><button><a href="#"> MORE <img src="./img/arrow_down.png"></a></button></div>
+        
+        <div class="btn2" onclick="toggle()" ><button id="togglebutton">MORE<img src="./img/arrow_down.png"></button></div>
     </section>
 
-    <div class=" lineheight2 bg-color"></div>
-    <!-- <footer>
-        <img src="./img/logo.png" alt="logo" width="150">
-        <p>All Rights Reserved to Casper &copy</p>
-    </footer> -->
+    <footer>
+        <div class="footerhead">
+            <h3 class=" footertitle">Partners</h3>
+            <div class=" lineHeightfooter bg-color"></div>
+            <div class="images">
+                <ul class="imgcontainer">
+                    <li><img src="./img/Partners/mozilla.png" alt="Google"width="200"></li>
+                    <li><img src="./img/Partners/google.png" alt="Google"width="200"></li>
+                    <li><img src="./img/Partners/naver.png" alt="Naver"width="200"></li>
+                    <li><img src="./img/Partners/daumkakao.png" alt="Daumkakao"width="200"></li>
+                    <li><img src="./img/Partners/airbnb.png" alt="Airbnb"width="200"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerfoot">
+            <img src="./img/logo.png" alt="" width="300">
+            <p>All Rights Reserved &copy;</p>
+        </div>
+
+
+
+
+    </footer>
     <script defer src="./index.js"></script>
 </body>
 

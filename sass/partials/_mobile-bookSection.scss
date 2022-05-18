@@ -7,12 +7,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     h3 {
         font-size: 25px;
         padding-top: 35px;
         color: $primarycolor;
         text-align: center;
     }
+
     a {
         cursor: pointer;
         color: $bg-color;
@@ -24,14 +26,22 @@
         border: none;
         outline: none;
         height: 70px;
-        width: 50vw;    
+        width: 50vw;
         background-color: $primarycolor;
-        a{
+
+        a {
             font-weight: 400;
             font-family: 'COCOGOOSE';
             color: $color4;
         }
     }
+}
+
+.booktitle {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'COCOGOOSE';
+    padding: 10px 0;
 }
 
 .btn {
@@ -52,14 +62,14 @@
 }
 
 .book-holder {
-display: grid;
-grid-template-columns: 150px 1fr;
-place-items: center center;
-background-color: #3c3f4675;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    place-items: center center;
+    background-color: #3c3f4675;
 }
 
-.book-holder-color{
-background-color: white;
+.book-holder-color {
+    background-color: white;
 }
 
 .image-holder {
@@ -78,5 +88,57 @@ background-color: white;
 }
 
 .whitecolor {
-    color:white;
-} 
+    color: white !important;
+}
+
+.primarycolor {
+    color: $primarycolor;
+}
+
+.moresection {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .book-section {
+        h3 {
+            padding: 50px 0;
+        }
+    }
+
+    .lineheight {
+        margin-top: -2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .Books {
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 20px;
+    }
+
+    .book-holder {
+        grid-template-columns: 1fr;
+        background-color: #3c3f4675;
+        grid-column-gap: 10px;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .book-holder:hover {
+        border: 2px solid #fff;
+        margin-top: -1rem;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .moresection {
+        text-align: center;
+        display: block;
+        padding: 10px 20px;
+        border: 2px solid white;
+        margin: 3rem 0;
+    }
+}
