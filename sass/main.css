@@ -169,7 +169,7 @@
   display: block;
   font-family: 'Smooch', cursive;
   font-size: 35px;
-  width: 42%;
+  width: 100%;
 }
 
 .pre-navbar {
@@ -305,6 +305,10 @@
 
 .hero span {
   color: #FEBD01;
+}
+
+#typed-text {
+  font-family: 'Smooch', cursive;
 }
 
 .logo {
@@ -458,11 +462,15 @@
 
 .lineheight {
   height: 1px;
-  width: 19%;
-  margin-top: 3%;
+  width: 4rem;
+  margin-top: 1rem;
 }
 
 .description {
+  color: #505050;
+}
+
+.whitecolor {
   color: white;
 }
 

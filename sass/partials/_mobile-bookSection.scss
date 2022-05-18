@@ -63,10 +63,14 @@ place-items: center center;
 
 .lineheight {
     height: 1px;
-    width: 19%;
-    margin-top: 3%;
+    width: 4rem;
+    margin-top: 1rem;
 }
 
 .description {
-    color: white;
+    color: $bg-color;
 }
+
+.whitecolor {
+    color:white;
+} 
