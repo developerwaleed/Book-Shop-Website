@@ -313,7 +313,7 @@
   height: auto;
   padding-right: 10px;
   gap: 40px;
-  background-image: url("./img/main_big.png");
+  background-image: url("../img/main_big.png");
   background-position: center;
   background-size: cover;
 }
