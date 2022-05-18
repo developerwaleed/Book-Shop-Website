@@ -1,34 +1,57 @@
 .hero {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     height: auto;
     padding-right: 10px;
-    gap: 44px;
-
+    gap: 40px;
+    background-image: url('/img/main_big.png');
+    background-position: center;
+    background-size: cover;
 
     h1 {
-        // font-size: 20px;
+        font-family: 'COCOGOOSE';
+        padding-left: $rempad;
+        color: $primarycolor;
         line-height: 1.5;
-        text-align: center;
-    }
-
-    h3 {
-        padding: 0 10px;
+        font-size: 2.1rem;
+        margin-top: 6rem;
     }
 
     span {
         color: $primarycolor;
+        font-size: 2rem;
+        font-weight: 400;
     }
 }
 
-#typed-text {
-font-family: 'Smooch', cursive;
+
+.header-text2 {
+    color: $color5;
+    font-size: 30px;
+    font-family: 'COCOGOOSE';
+    padding-left: $rempad;
 }
 
-.logo {
-    padding-top: 70px;
-    align-self: center;
+.header-text3 {
+    color: $color5;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: $rempad;
+    padding-bottom: 50px;
+}
+
+.header-text {
+    padding: 30px;
+    margin-left: $rempad;
+    width: 95vw;
+    font-size: 19px;
+    background-color: $color4;
+    border: 4px solid white;
+}
+
+#typed-text {
+    font-family: 'Smooch', cursive;
 }
 
 .vector1 {
@@ -44,34 +67,12 @@ font-family: 'Smooch', cursive;
 
     .hero {
         display: flex;
-        align-items: center;
-        justify-content: center;
         height: 82vh;
-        gap: 0;
 
-        h1,
-        h3 {
-            font-family: 'Poiret One', cursive;
-            font-size: 50px;
+        h1 {
+            padding-left: 5.5rem;
         }
-        span {
-            color: #96720c;
-            font-family: 'Smooch', cursive;
-            font-size: 50px;
-        }
-        &::after {
-            content: "";
-            background-image: url('/img/bgdesk.png');
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.5;
-            top: 0;
-            left: 0;
-            bottom: 0;
-            right: 0;
-            position: absolute;
-            z-index: -1;
-        }
+
     }
 
 
@@ -85,6 +86,21 @@ font-family: 'Smooch', cursive;
 
     .logo {
         display: none;
+    }
+
+    .header-text {
+        margin-left: 5.5rem;
+        width: 53vw;
+        // padding: 10px;
+    }
+
+    .header-text2 {
+        padding-left: 5.5rem;
+    }
+
+    .header-text3 {
+        padding-left: 5.5rem;
+        padding-bottom: 0;
     }
 
 }

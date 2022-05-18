@@ -6,46 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass/main.css">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <!--font-family: 'COCOGOOSE'; -->
     <title>Book-Store</title>
 </head>
 
 <body>
+
     <header>
         <div class="pre-navbar bg-color">
             <ul>
-                <li><img src= "img/Social2 .png" alt="" width="35"></li>
-                <li><img src= "./img/Social1.png" alt="" width="35"></li>
+                <li><img src= "./img/Social1.png" alt="" ></li>
+                <li><img src= "./img/Social2.png" alt=""></li>              
                 <li>SignIn</li>
                 <li>My Page</li>
                 <li>Language</li>
             </ul>
         </div>
         <nav class="nav-bar">
-            <div class="instead-logo">Book Store</div>
             <input id="menu-toggle" type="checkbox" />
             <label class='menu-button-container' id="menuButton" for="menu-toggle">
                 <div class='menu-button'></div>
             </label>
-            <ul class="menu">
-                <li><a class="menu-item" href="./index.html">Home</a></li>
-                <li><a class="menu-item" href="./About.html">About</a></li>
-                <li><a class="menu-item" href="">BuyNow</a></li>
-                <li><a class="menu-item" href="">Contact</a></li>
-            </ul>
+            <img class="navbar-logo" src="/img/logo.png" alt="" width=200rem>
+                <ul class="menu">
+                    <li><a class="menu-item primarycolor" href="./index.html">Home</a></li>
+                    <li><a class="menu-item" href="./About.html">About</a></li>
+                    <li><a class="menu-item" href="">BuyNow</a></li>
+                    <li><a class="menu-item" href="">Contact</a></li>
+                    <li ><a class="menu-item5" href=""><div id="unique-item">BookStore</div></a</li>
+                </ul>
         </nav>
     </header>
+
+
+
     <section id="home" class="hero">
-        <img class= "logo" src="./img/logo.png" alt="Logo" width="220">
+        <img class= "logo" src="./img/logo.png" alt="Logo">
         <h1>
-            Pakistan's Largest Online Book Store. 
+            <span>"Hello! Pakistani People"</span><br>
+            Pakistan's Largest <br>Online Book Store!  <br> 2020
         </h1>
-    <img class="vector1" src="./img/Header-vector-1.png" alt="study" width="200">
-    <h3>
-        Now just a <span id="typed-text"></span>
-    </h3>
-    <img class= "vector3" src="./img/Header-vector-2.png" alt="vector" width="200">
-    <a href="#Booksection"><img class= "vector2" src="./img/arrow.png" alt="" width="80"></a>
+        <div class="header-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque neque qui rerum consequuntur. Illo culpa officia aliquid illum cumque?
+        </div>
+        <div class="header-text2">
+            Starting From 10.02.2022 ~ 
+        </div>
+        <div class="header-text3">
+            @ Created and Managed by CASPER!
+        </div>
     </section>
+
+
+
     <section class="book-section primarybgcolor">
         <h3 id="Booksection">Book Section</h3>
 
@@ -66,23 +80,14 @@
            
         </div>
 
-        <div class="btn"><button><a href="#">Add to Cart</a></button></div>
+        <div class="btn2"><button><a href="#"> MORE <img src="./img/arrow_down.png"></a></button></div>
     </section>
 
     <div class=" lineheight2 bg-color"></div>
-    <footer>
+    <!-- <footer>
         <img src="./img/logo.png" alt="logo" width="150">
         <p>All Rights Reserved to Casper &copy</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-    var typed = new Typed ('#typed-text', {
-    strings: ['Click Away!', 'Tap Away!'],
-    typeSpeed: 150,
-    backSpeed: 100,
-    loop: true
-});
-    </script>
+    </footer> -->
     <script defer src="./index.js"></script>
 </body>
 

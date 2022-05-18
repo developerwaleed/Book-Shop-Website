@@ -2,7 +2,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 15vh;
     column-gap: 40px;
     p {
         width: 150px;
@@ -10,6 +9,6 @@ footer {
 }
 
 .lineheight2 {
-    height: 1px;
-    margin-top: 3%;
+    height: 0.1px;
+    margin-top: 2rem;
 }

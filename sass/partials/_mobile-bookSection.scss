@@ -2,8 +2,7 @@
     height: auto;
     width: 100%;
     background-color: $bg-color;
-    background-image: url("/img/texture-bg.png");
-    margin-top: 20px;
+    background-image: url("/img/program-x.png");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +16,6 @@
     a {
         cursor: pointer;
         color: $bg-color;
-        font-size: 20px;
         text-decoration: none;
 
     }
@@ -25,16 +23,18 @@
     button {
         border: none;
         outline: none;
-        height: 40px;
-        width: 200px;
+        height: 70px;
+        width: 50vw;    
         background-color: $primarycolor;
-        color: $bg-color;
+        a{
+            font-weight: 400;
+            font-family: 'COCOGOOSE';
+            color: $color4;
+        }
     }
 }
 
 .btn {
-    display: flex;
-    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -47,7 +47,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    padding: 10px 0;
+    padding: 10px 30px;
     grid-row-gap: 25px;
 }
 
@@ -55,6 +55,11 @@
 display: grid;
 grid-template-columns: 150px 1fr;
 place-items: center center;
+background-color: #3c3f4675;
+}
+
+.book-holder-color{
+background-color: white;
 }
 
 .image-holder {
@@ -62,6 +67,7 @@ place-items: center center;
 }
 
 .lineheight {
+    margin: auto auto;
     height: 1px;
     width: 4rem;
     margin-top: 1rem;

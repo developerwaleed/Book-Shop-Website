@@ -8,27 +8,27 @@ const BookSectionOBJ = [
     {
         image: './img/Buku 2 (1).png',
         alt: 'Book1',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!'
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.'
     },
     {
         image: './img/Buku 3 (1).png',
         alt: 'Book2',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
     {
         image: './img/Buku 4 (1).png',
         alt: 'Book2',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
     {
         image: './img/Buku 5 (1).png',
         alt: 'Book2',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
     {
-        image: './img/h2.png',
+        image: './img/Buku 6.png',
         alt: 'Book2',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
 ];
 
@@ -36,22 +36,22 @@ const HotBookSection = [
     {
         image: './img/h1.png',
         alt: 'HotBook1',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!'
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.'
     },
     {
         image: './img/h2.png',
         alt: 'HotBook2',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
     {
         image: './img/h3.png',
         alt: 'HotBook3',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
     {
-        image: './img/h4.jpg',
+        image: './img/h4.png',
         alt: 'HotBook4',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam rem nam reiciendis, cum iure aut tempore ipsum consectetur unde alias!',
+        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
 ];
 
@@ -78,7 +78,7 @@ BookSection = '';
 const ShowHotBooks = () => {
     for (let i = 0; i < HotBookSection.length; i++) {
         BookSection += `
-        <div class="book-holder">
+        <div class="book-holder book-holder-color">
         <div class="image-holder">
             <img src="${HotBookSection[i].image}" alt="${HotBookSection[i].alt}" width="100">
         </div>
