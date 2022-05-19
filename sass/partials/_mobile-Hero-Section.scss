@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
 
   h1 {
-    font-family: 'COCOGOOSE';
+    font-family: 'COCOGOOSE', sans-serif;
     padding-left: $rempad;
     color: $primarycolor;
     line-height: 1.5;
@@ -27,7 +27,7 @@
 .header-text2 {
   color: $color5;
   font-size: 25px;
-  font-family: 'COCOGOOSE';
+  font-family: 'COCOGOOSE', sans-serif;
   padding-left: $rempad;
 
   span {

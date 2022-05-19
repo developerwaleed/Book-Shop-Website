@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
 
   h1 {
-    font-family: 'COCOGOOSE';
+    font-family: 'COCOGOOSE', sans-serif;
     padding-left: $rempad;
     color: $primarycolor;
     line-height: 1.5;
@@ -147,7 +147,7 @@
   p {
     font-size: 20px;
     color: $color5 !important;
-    font-family: 'COCOGOOSE';
+    font-family: 'COCOGOOSE', sans-serif;
   }
 }
 
