@@ -73,7 +73,6 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  border-bottom: 1px solid gray;
 
   .About-logo {
     display: flex;
@@ -167,13 +166,15 @@
 
 .pastimagestext {
   font-size: 1rem;
+  margin-bottom: 40px;
 }
 
 .pastimages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -239,5 +240,7 @@
 
   .pastimages {
     flex-direction: row;
+    width: 100vw;
+    padding: 50px;
   }
 }

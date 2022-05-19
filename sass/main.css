@@ -436,7 +436,8 @@
 
   .Books {
     grid-template-columns: repeat(5, 1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 4px;
+    margin: 0 101px;
   }
 
   .book-holder {
@@ -685,7 +686,6 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  border-bottom: 1px solid gray;
 }
 
 .aboutSection2 .About-logo {
@@ -779,13 +779,15 @@ footer {
 
 .pastimagestext {
   font-size: 1rem;
+  margin-bottom: 40px;
 }
 
 .pastimages {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
@@ -851,5 +853,7 @@ footer {
 
   .pastimages {
     flex-direction: row;
+    width: 100vw;
+    padding: 50px;
   }
 }
