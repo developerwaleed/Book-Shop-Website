@@ -59,31 +59,12 @@ const HotBookSection = [
         alt: 'HotBook1',
         description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.'
     },
-    {   title: 'Harry Porter',
-        image: './img/h2.png',
-        alt: 'HotBook2',
-        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
-    },
     {   title: 'The Subtle Art',
         image: './img/h3.png',
         alt: 'HotBook3',
         description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
     },
-    {   title: 'Think like a monk',
-        image: './img/h4.png',
-        alt: 'HotBook4',
-        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
-    },
-    {   title: 'Harry Porter',
-        image: './img/h2.png',
-        alt: 'HotBook2',
-        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
-    },
-    {   title: 'The Subtle Art',
-        image: './img/h3.png',
-        alt: 'HotBook3',
-        description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
-    },
+   
 ];
 
 const ShowBooks = () => {
@@ -134,10 +115,9 @@ function toggle() {
     const containerSelector = HotBookContainer.getElementsByClassName('Hotbook-holder');
     var Btn=document.getElementById('togglebutton');
     
-    for(let i = containerSelector.length-1 ; i >= containerSelector.length-6  ; i--)
+    for(let i = containerSelector.length-1 ; i >= containerSelector.length-4  ; i--)
     {
         var Row = containerSelector[i];
-        console.dir(containerSelector[i]);
         if(Row.style.display === 'none')
         {
             Row.style.display = 'grid';
@@ -150,7 +130,8 @@ function toggle() {
     }
 }
 
-toggle();
-// if (!mediaQuery.matches) {
-// } 
 
+
+if (!mediaQuery.matches) {
+    toggle();
+} 
