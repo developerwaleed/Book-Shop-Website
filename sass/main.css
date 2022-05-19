@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -51,6 +52,7 @@
   height: 23px;
   transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 .menu li {
   font-size: 45px;
   display: flex;
@@ -60,6 +62,7 @@
   width: 100%;
   color: white;
 }
+
 .menu a {
   font-size: 25px;
   color: #ec5242;
@@ -94,6 +97,7 @@
   content: "";
   margin-top: -8px;
 }
+
 .menu-button::after {
   content: "";
   margin-top: 8px;
@@ -102,10 +106,12 @@
 #menu-toggle:checked + .menu-button-container.menu-button {
   background: rgba(255, 255, 255, 0);
 }
+
 #menu-toggle:checked + .menu-button-container.menu-button::before {
   margin-top: 0;
   transform: rotate(405deg);
 }
+
 #menu-toggle:checked + .menu-button-container.menu-button::after {
   margin-top: 0;
   transform: rotate(-405deg);
@@ -165,10 +171,12 @@
     padding: 0 30px;
     color: #ec5242;
   }
+
   .pre-navbar ul {
     display: flex;
     gap: 10px;
   }
+
   .pre-navbar ul li {
     font-size: 20px;
     align-self: center;
@@ -180,6 +188,7 @@
     box-sizing: border-box;
     width: 100vw;
   }
+
   .desktopnav ul {
     font-size: 1rem;
     width: 85vw;
@@ -187,9 +196,11 @@
     align-items: center;
     justify-content: flex-end;
   }
+
   .desktopnav ul li {
     padding-left: 5rem;
   }
+
   .desktopnav ul li:nth-child(4) {
     padding-right: 30px;
   }
@@ -206,6 +217,7 @@
     padding-left: 3rem;
   }
 }
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -216,6 +228,7 @@
   background-image: url("../img/mobile_intro_bg.png");
   background-repeat: no-repeat;
 }
+
 .hero h1 {
   font-family: "COCOGOOSE", sans-serif;
   padding-left: 1rem;
@@ -224,6 +237,7 @@
   font-size: 2.1rem;
   margin-top: 6rem;
 }
+
 .hero span {
   color: #ec5242;
   font-size: 2rem;
@@ -236,6 +250,7 @@
   font-family: "COCOGOOSE", sans-serif;
   padding-left: 1rem;
 }
+
 .header-text2 span {
   font-size: 25px;
 }
@@ -277,6 +292,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .hero h1 {
     padding-left: 5.5rem;
     padding-top: 2rem;
@@ -308,6 +324,7 @@
     padding-bottom: 50px;
   }
 }
+
 .book-section {
   height: auto;
   width: 100%;
@@ -318,12 +335,14 @@
   align-items: center;
   justify-content: center;
 }
+
 .book-section h3 {
   font-size: 25px;
   padding-top: 35px;
   color: #ec5242;
   text-align: center;
 }
+
 .book-section a {
   cursor: pointer;
   color: #272a31;
@@ -340,6 +359,7 @@
 .btn {
   margin-bottom: 30px;
 }
+
 .btn button {
   border: none;
   outline: none;
@@ -347,6 +367,7 @@
   width: 50vw;
   background-color: #ec5242;
 }
+
 .btn button a {
   font-weight: 400;
   font-family: "COCOGOOSE", sans-serif;
@@ -444,6 +465,7 @@
     margin: 3rem 0;
   }
 }
+
 .hotSellingBooks {
   display: flex;
   flex-direction: column;
@@ -457,6 +479,7 @@
   align-self: center;
   justify-self: baseline;
 }
+
 .btn2 button {
   outline: none;
   height: 3rem;
@@ -466,6 +489,7 @@
   font-weight: 300;
   font-size: 20px;
 }
+
 .btn2 button img {
   padding-left: 13px;
   padding-bottom: 2px;
@@ -529,6 +553,7 @@
     gap: 10px;
   }
 }
+
 footer {
   display: none;
 }
@@ -578,11 +603,13 @@ footer {
     gap: 50px;
     padding: 20px;
   }
+
   .footerfoot p {
     font-size: 30px;
     font-family: "COCOGOOSE", sans-serif;
   }
 }
+
 .Aboutus {
   display: flex;
   flex-direction: column;
@@ -595,6 +622,7 @@ footer {
   background-size: inherit;
   background-repeat: no-repeat;
 }
+
 .Aboutus h1 {
   font-family: "COCOGOOSE", sans-serif;
   padding-left: 1rem;
@@ -603,6 +631,7 @@ footer {
   font-size: 1.7rem;
   margin-top: 6rem;
 }
+
 .Aboutus span {
   color: #ec5242;
   font-size: 1.8rem;
@@ -658,6 +687,7 @@ footer {
   width: 100vw;
   border-bottom: 1px solid gray;
 }
+
 .aboutSection2 .About-logo {
   display: flex;
   align-items: center;
@@ -667,6 +697,7 @@ footer {
   width: 70vw;
   height: 15vh;
 }
+
 .aboutSection2 .About-logo img {
   padding: 10px;
 }
@@ -684,6 +715,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
+
 .AboutFooter * {
   color: white;
 }
@@ -722,6 +754,7 @@ footer {
   margin: auto auto;
   gap: 50px;
 }
+
 .aboutfooterfoot p {
   font-size: 20px;
   color: #4f4f4f !important;
@@ -759,6 +792,7 @@ footer {
   .Aboutus {
     background-image: url("../img/about_bg_01.png");
   }
+
   .Aboutus h1 {
     font-size: 2.5rem;
   }
@@ -809,6 +843,7 @@ footer {
     width: 100vw;
     background-color: #2a2a2a;
   }
+
   .aboutfooterfoot p {
     color: white !important;
     padding-top: 25px;
@@ -818,5 +853,3 @@ footer {
     flex-direction: row;
   }
 }
-
-/*# sourceMappingURL=main.css.map */
