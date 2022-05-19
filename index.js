@@ -9,31 +9,31 @@ const BookSectionOBJ = [
     title: 'The Genius Habit',
     image: './img/Buku 2 (1).png',
     alt: 'Book1',
-    description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
+    description: 'The Genius Habit is an amazing book it includes the most successful people habits',
   },
   {
     title: 'The BestSeller Code',
     image: './img/Buku 3 (1).png',
     alt: 'Book2',
-    description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
+    description: 'The BestSeller Code is an amazing book it includes the tips and tricks to sale yours goods Effecently',
   },
   {
     title: 'Becoming Best sellers',
     image: './img/Buku 4 (1).png',
     alt: 'Book2',
-    description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
+    description: 'Becoming Best sellers is an amazing book it helps you being a good seller.',
   },
   {
     title: 'The Sielent Patient!',
     image: './img/Buku 5 (1).png',
     alt: 'Book2',
-    description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
+    description: 'The Sielent Patient! book revolves around the mental health problems people face in daily life.',
   },
   {
     title: 'The Lord of Rings',
     image: './img/Buku 6.png',
     alt: 'Book2',
-    description: 'Books are referred to as a mans best friend. They are very beneficial for mankind and have helped it evolve.',
+    description: 'The Lord of Rings Amazing fiction based book the fiction that used in the book keep the reader attached.',
   },
 ];
 
