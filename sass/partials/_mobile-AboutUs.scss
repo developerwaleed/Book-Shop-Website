@@ -161,6 +161,7 @@
 
 .notshowonmobile {
     display: none;
+
 }
 
 .About-text-Desktop {
@@ -185,7 +186,7 @@
     .Aboutus {
         background-image: url('../img/about_bg_01.png');
         h1 {
-            font-size: 3.5rem;
+            font-size: 2.5rem;
         }
 }
 
@@ -202,7 +203,7 @@
     border: 0.5px solid grey;
     padding: 20px;
     margin: 20px;
-    width: 50vw;
+    width: 60vw;
     align-self: center;
 }
 
@@ -219,9 +220,8 @@
 }
 
 .About-logo {
-
     width: 25vw;
-    height: 15vh;
+    height: 20vh;
 }
 
 .notshowonmobile {
@@ -238,6 +238,9 @@
     }
     width: 100vw;
     background-color: #2a2a2a;
+    p {
+        padding-top: 25px;
+    }
 }
 
 .pastimages {

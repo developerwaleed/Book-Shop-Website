@@ -235,6 +235,8 @@
     overflow: none;
   }
   .menu a {
+    font-size: 18px;
+    color: #ec5242;
     color: #272a31;
   }
   .navbar-logo {
@@ -729,6 +731,8 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     margin: auto auto;
+    gap: 50px;
+    padding: 20px;
   }
   .footerfoot p {
     font-size: 30px;
@@ -978,7 +982,7 @@ footer {
     background-image: url("../img/about_bg_01.png");
   }
   .Aboutus h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   .About-text {
     display: none;
@@ -992,7 +996,7 @@ footer {
     border: 0.5px solid grey;
     padding: 20px;
     margin: 20px;
-    width: 50vw;
+    width: 60vw;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
@@ -1008,7 +1012,7 @@ footer {
   }
   .About-logo {
     width: 25vw;
-    height: 15vh;
+    height: 20vh;
   }
   .notshowonmobile {
     display: block;
@@ -1022,6 +1026,9 @@ footer {
   }
   .aboutfooterfoot p {
     color: white !important;
+  }
+  .aboutfooterfoot p {
+    padding-top: 25px;
   }
   .pastimages {
     -webkit-box-orient: horizontal;

@@ -37,8 +37,7 @@
         margin: 0 1rem;
         padding: 0.5em 0;
         width: 100%;
-        color: white;
-
+        color: white; 
     }
 
     a {
@@ -139,6 +138,7 @@
 .logo {
     display: none;
 }
+
 @media (min-width: 768px) {
 
     .nav-bar {
@@ -172,6 +172,8 @@
         }
 
         a {
+            font-size: 18px;
+            color: $primarycolor;
             color: $bg-color;
         }
     }
@@ -223,8 +225,9 @@
             }
         }
     }
+
     #unique-item {
-        display:block ;
+        display: block;
         height: 2.7rem;
         color: $primarycolor;
         border: 4px solid red;
