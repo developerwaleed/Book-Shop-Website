@@ -46,10 +46,6 @@
   }
 }
 
-.primarycolor {
-  color: $primarycolor !important;
-}
-
 .menu-button-container {
   display: flex;
   height: 100%;
@@ -88,7 +84,7 @@
   }
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button {
+#menu-toggle:checked + .menu-button-container.menu-button {
   background: rgba(255, 255, 255, 0);
 
   &::before {

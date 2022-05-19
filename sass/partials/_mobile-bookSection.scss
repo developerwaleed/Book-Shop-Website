@@ -20,6 +20,17 @@
     color: $bg-color;
     text-decoration: none;
   }
+}
+
+.booktitle {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 10px 0;
+}
+
+.btn {
+  margin-bottom: 30px;
 
   button {
     border: none;
@@ -34,17 +45,6 @@
       color: $color4;
     }
   }
-}
-
-.booktitle {
-  text-align: center;
-  font-size: 18px;
-  font-family: 'COCOGOOSE', sans-serif;
-  padding: 10px 0;
-}
-
-.btn {
-  margin-bottom: 30px;
 }
 
 .title-book-section {

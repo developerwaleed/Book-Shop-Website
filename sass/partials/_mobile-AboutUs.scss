@@ -4,8 +4,6 @@
   justify-content: space-evenly;
   height: auto;
   text-align: center;
-  // padding-right: 10px;
-  // gap: 40px;
   background-color: #f7f7f7;
   background-image: url('../img/About-mobile.png');
   background-position: center 116px;
@@ -77,8 +75,18 @@
   width: 100vw;
   border-bottom: 1px solid gray;
 
-  img {
-    padding: 10px;
+  .About-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    border: 0.5px solid gray;
+    width: 70vw;
+    height: 15vh;
+
+    img {
+      padding: 10px;
+    }
   }
 }
 
@@ -86,16 +94,6 @@
   color: $bg-color !important;
   text-decoration: underline;
   font-size: 25px !important;
-}
-
-.About-logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto auto;
-  border: 0.5px solid gray;
-  width: 70vw;
-  height: 15vh;
 }
 
 .AboutFooter {

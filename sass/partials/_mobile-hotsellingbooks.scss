@@ -5,34 +5,30 @@
   margin-top: 50px;
 }
 
-button {
-  outline: none;
-  height: 3rem;
-  width: 85vw;
-  background-color: white;
-  border: 1px solid $bg-color;
-  font-weight: 300;
-  font-size: 20px;
-
-  img {
-    padding-left: 13px;
-    padding-bottom: 2px;
-  }
-}
-
 .btn2 {
   padding: 40px 0;
   display: flex;
   align-self: center;
   justify-self: baseline;
+
+  button {
+    outline: none;
+    height: 3rem;
+    width: 85vw;
+    background-color: white;
+    border: 1px solid $bg-color;
+    font-weight: 300;
+    font-size: 20px;
+
+    img {
+      padding-left: 13px;
+      padding-bottom: 2px;
+    }
+  }
 }
 
 .descriptionColor {
   color: $bg-color;
-}
-
-.bg-color {
-  background-color: $bg-color;
 }
 
 .shadow {
