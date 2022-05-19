@@ -17,41 +17,63 @@
     <header>
         <div class="pre-navbar bg-color">
             <ul>
-                <li><img src= "./img/Social1.png" alt="" ></li>
-                <li><img src= "./img/Social2.png" alt=""></li>              
+                <li><img src="./img/Social1.png" alt=""></li>
+                <li><img src="./img/Social2.png" alt=""></li>
                 <li>SignIn</li>
                 <li>My Page</li>
                 <li>Language</li>
             </ul>
         </div>
         <nav class="nav-bar">
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' id="menuButton" for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-            <a href="./index.html"><img class="navbar-logo" src="./img/logo.png" alt="" width=130rem></a>
+            <!-- Mobile-nav -->
+            <div class="mobile-nav">
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' id="menuButton" for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+
                 <ul class="menu">
-                    <li><a id= "AboutButton" class="menu-item" href="./About.html">About</a></li>
+                    <li><a class="menu-item" href="./About.html">About</a></li>
                     <li><a class="menu-item" href="">BuyNow</a></li>
                     <li><a class="menu-item" href="">Contact</a></li>
-                    <li ><div id="unique-item">BookStore</div></li>
                 </ul>
+            </div>
+            <!-- End Mobile Nav -->
+
+            <!-- Start Desktop Nav -->
+            <div class="desktopnav">
+                <a href="./index.html"><img class="navbar-logo" src="./img/logo.png" alt="" width=130></a>
+                <ul class="Desktop-Menu">
+                    <li><a class="Desktopmenu-item" href="./About.html">About</a></li>
+                    <li><a class="Desktopmenu-item" href="">BuyNow</a></li>
+                    <li><a class="Desktopmenu-item" href="">Contact</a></li>
+                    <li>
+                        <span id="unique-item">BookStore</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Desktop -->
+
         </nav>
     </header>
 
 
 
     <section id="home" class="hero">
-        <img class= "logo" src="./img/logo.png" alt="Logo">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+
         <h1>
-            <span>"Hello! Pakistani People"</span><br>
-            Pakistan's Largest <br>Online Book Store!  <br> <span class="numberclass">2020<span>
+            <span>"Hello! Pakistani People"</span> <br>
+            Pakistan's Largest <br>Online Book Store! <br> <span class="numberclass">2020</span>
         </h1>
+      
+
         <div class="header-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque neque qui rerum consequuntur. Illo culpa officia aliquid illum cumque?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id cumque neque qui rerum consequuntur. Illo culpa
+            officia aliquid illum cumque?
         </div>
         <div class="header-text2">
-            Starting From <span class="numberclasswthoutcolor">10.02.2022 ~ </span> 
+            Starting From <span class="numberclasswthoutcolor">10.02.2022 ~ </span>
         </div>
         <div class="header-text3">
             @ Created and Managed by CASPER!
@@ -66,10 +88,9 @@
         <div class=" lineheight title-book-section"></div>
 
         <div class="Books" id="booksection">
-    
-        </div>
 
-        <div class="btn"><button><a href="#">Add to Cart</a></button></div>
+        </div>
+        <div class="btn"><button type="button">Add to Cart</button></div>
         <div class="moresection">
             <a href="" class="whitecolor">Show All</a>
         </div>
@@ -79,18 +100,10 @@
         <h3>Hot Selling Books 🔥</h3>
         <div class=" lineHeightHotSection bg-color"></div>
         <div class="HotBooks" id="HotBooks">
-            <!-- <div class="book-holder">
-                <div class="image-holder">
-                    <img src="./img/Buku 2 (1).png" alt="" width="100">
-                </div>
-                <div class="description whitecolor">
-                    <div class="booktitle"> The Hobbits</div>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nesciunt asperiores inventore alias quisquam cum!
-                </div>
-            </div> -->
         </div>
-        
-        <div class="btn2" onclick="toggle()" ><button id="togglebutton">MORE<img src="./img/arrow_down.png"></button></div>
+        <div class="btn2" onclick="toggle()"><button type="button" id="togglebutton">MORE<img src="./img/arrow_down.png"
+                    alt="More Button"></button>
+        </div>
     </section>
 
     <footer>
@@ -99,11 +112,11 @@
             <div class=" lineHeightfooter bg-color"></div>
             <div class="images">
                 <ul class="imgcontainer">
-                    <li><img src="./img/Partners/mozilla.png" alt="Google"width="150"></li>
-                    <li><img src="./img/Partners/google.png" alt="Google"width="150"></li>
-                    <li><img src="./img/Partners/naver.png" alt="Naver"width="150"></li>
-                    <li><img src="./img/Partners/daumkakao.png" alt="Daumkakao"width="150"></li>
-                    <li><img src="./img/Partners/airbnb.png" alt="Airbnb"width="150"></li>
+                    <li><img src="./img/Partners/mozilla.png" alt="Google" width="150"></li>
+                    <li><img src="./img/Partners/google.png" alt="Google" width="150"></li>
+                    <li><img src="./img/Partners/naver.png" alt="Naver" width="150"></li>
+                    <li><img src="./img/Partners/daumkakao.png" alt="Daumkakao" width="150"></li>
+                    <li><img src="./img/Partners/airbnb.png" alt="Airbnb" width="150"></li>
                 </ul>
             </div>
         </div>

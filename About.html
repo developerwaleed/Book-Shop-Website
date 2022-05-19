@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <header>
         <div class="pre-navbar bg-color">
             <ul>
@@ -22,29 +23,43 @@
             </ul>
         </div>
         <nav class="nav-bar">
-            <input id="menu-toggle" type="checkbox" />
-            <label class='menu-button-container' id="menuButton" for="menu-toggle">
-                <div class='menu-button'></div>
-            </label>
-            <a href="./index.html"><img class="navbar-logo" src="./img/logo.png" alt="" width=130rem></a>
-            <ul class="menu">
-                <li><a class="menu-item primarycolor" href="./About.html">About</a></li>
-                <li><a class="menu-item" href="./index.html">Home</a></li>
-                <li><a class="menu-item" href="">BuyNow</a></li>
-                <li><a class="menu-item" href="">Contact</a></li>
-                <li>
-                    <div id="unique-item">BookStore</div>
-                </li>
-            </ul>
+            <!-- Mobile-nav -->
+            <div class="mobile-nav">
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' id="menuButton" for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+
+                <ul class="menu">
+                    <li><a class="menu-item " href="./index.html">Home</a></li>
+                    <li><a class="menu-item" href="">BuyNow</a></li>
+                    <li><a class="menu-item" href="">Contact</a></li>
+                </ul>
+            </div>
+            <!-- End Mobile Nav -->
+
+            <!-- Start Desktop Nav -->
+            <div class="desktopnav">
+                <a href="./index.html"><img class="navbar-logo" src="./img/logo.png" alt="" width=130></a>
+                <ul class="Desktop-Menu">
+                    <li><a class="Desktopmenu-item primarycolor" href="./About.html">About</a></li>
+                    <li><a class="Desktopmenu-item" href="">BuyNow</a></li>
+                    <li><a class="Desktopmenu-item" href="">Contact</a></li>
+                    <li>
+                        <span id="unique-item">BookStore</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Desktop -->
+
         </nav>
     </header>
 
     <section id="home" class="Aboutus">
         <img class="logo" src="./img/logo.png" alt="Logo">
-        <h1>
             <h1 class="notshowondesktop">
                 <span>"Hello! Pakistani People"</span><br>
-                Pakistan's Largest Online Book Store! <span class="numberclass">2020<span>
+                Pakistan's Largest Online Book Store! <span class="numberclass">2020</span>
             </h1>
             <h1 class="Desktop-text">
                 Pakistan's Largest <br>Online Book Store!
@@ -69,7 +84,8 @@
     <section class="aboutSection2">
 
         <div class="About-text3">
-            The Book Store <br> Pakistan Store Logo!</div>
+            <h2>The Book Store <br> Pakistan Store Logo!</h2>
+            </div>
         <div class="aboutline"></div>
         <div class="About-text4">
             The logo of Book Store was decided in back january, 2022 through the logo competition held in paris on
@@ -79,13 +95,13 @@
         <div class="About-logo">
             <img src="./img/footerlogo.png" alt="" width="200">
         </div>
-
     </section>
 
     <section class="aboutSection2">
 
         <div class="About-text3">
-            See the past of <br> The Book Store!</div>
+            <h4>See the past of <br> The Book Store!</h4>
+        </div> 
         <div class="aboutline"></div>
         <div class="pastimagestext">
             Take a look at the last two Biggest Book festivals whicht Took place in London and in Paris.
@@ -94,7 +110,6 @@
             <img src="./img/2018.png" alt="" width="350">
             <img src="./img/2020.png" alt="" width="350">
         </div>
-
     </section>
 
     <footer class="AboutFooter">
