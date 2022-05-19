@@ -1,0 +1,143 @@
+.book-section {
+  height: auto;
+  width: 100%;
+  background-color: $bg-color;
+  background-image: url("../img/program-x.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    font-size: 25px;
+    padding-top: 35px;
+    color: $primarycolor;
+    text-align: center;
+  }
+
+  a {
+    cursor: pointer;
+    color: $bg-color;
+    text-decoration: none;
+  }
+}
+
+.booktitle {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'COCOGOOSE', sans-serif;
+  padding: 10px 0;
+}
+
+.btn {
+  margin-bottom: 30px;
+
+  button {
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 50vw;
+    background-color: $primarycolor;
+
+    a {
+      font-weight: 400;
+      font-family: 'COCOGOOSE', sans-serif;
+      color: $color4;
+    }
+  }
+}
+
+.title-book-section {
+  background-color: $primarycolor;
+}
+
+.Books {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  padding: 10px 30px;
+  grid-row-gap: 25px;
+}
+
+.book-holder {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  place-items: center center;
+  background-color: #3c3f4675;
+}
+
+.book-holder-color {
+  background-color: white;
+}
+
+.image-holder {
+  align-self: baseline;
+}
+
+.lineheight {
+  margin: auto auto;
+  height: 1px;
+  width: 4rem;
+  margin-top: 1rem;
+}
+
+.description {
+  color: $bg-color;
+}
+
+.whitecolor {
+  color: white !important;
+}
+
+.primarycolor {
+  color: $primarycolor;
+}
+
+.moresection {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .book-section {
+    h3 {
+      padding: 50px 0;
+    }
+  }
+
+  .lineheight {
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .Books {
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 4px;
+    margin: 0 101px;
+  }
+
+  .book-holder {
+    grid-template-columns: 1fr;
+    background-color: #3c3f4675;
+    grid-column-gap: 10px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    padding: 20px;
+  }
+
+  .book-holder:hover {
+    border: 2px solid #fff;
+    margin-top: -1rem;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .moresection {
+    text-align: center;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin: 3rem 0;
+  }
+}

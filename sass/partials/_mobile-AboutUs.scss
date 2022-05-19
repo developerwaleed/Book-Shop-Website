@@ -1,0 +1,246 @@
+.Aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: auto;
+  text-align: center;
+  background-color: #f7f7f7;
+  background-image: url('../img/About-mobile.png');
+  background-position: center 116px;
+  background-size: inherit;
+  background-repeat: no-repeat;
+
+  h1 {
+    font-family: 'COCOGOOSE', sans-serif;
+    padding-left: $rempad;
+    color: $primarycolor;
+    line-height: 1.5;
+    font-size: 1.7rem;
+    margin-top: 6rem;
+  }
+
+  span {
+    color: $primarycolor;
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+}
+
+.About-text {
+  color: #585555;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: white;
+  border: 0.5px solid grey;
+  padding: 20px;
+  margin: 20px;
+}
+
+.About-text2 {
+  color: #585555;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  margin: 20px;
+}
+
+.About-text3 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.aboutline {
+  margin: auto auto;
+  height: 2px;
+  width: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: $primarycolor;
+}
+
+.About-text4 {
+  text-align: center;
+  font-size: 20px;
+  padding: 25px;
+  padding-top: 8px;
+}
+
+.aboutSection2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+
+  .About-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    border: 0.5px solid gray;
+    width: 70vw;
+    height: 15vh;
+
+    img {
+      padding: 10px;
+    }
+  }
+}
+
+.about-Email {
+  color: $bg-color !important;
+  text-decoration: underline;
+  font-size: 25px !important;
+}
+
+.AboutFooter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  & * {
+    color: white;
+  }
+}
+
+.aboutimgcontainer {
+  width: 100vw;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.coloryes {
+  color: $primarycolor !important;
+}
+
+.aboutfooterhead {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+  background-color: #2a2a2a;
+}
+
+.lineHeightfooter {
+  width: 40px;
+}
+
+.aboutfooterfoot {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto;
+  gap: 50px;
+
+  p {
+    font-size: 20px;
+    color: $color5 !important;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+}
+
+.About-text-Desktop {
+  display: none;
+}
+
+.notshowondesktop {
+  display: block;
+}
+
+.notshowonmobile {
+  display: none;
+}
+
+.Desktop-text {
+  display: none;
+}
+
+.pastimagestext {
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.pastimages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .Aboutus {
+    background-image: url('../img/about_bg_01.png');
+
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .About-text {
+    display: none;
+  }
+
+  .About-text-Desktop {
+    display: block;
+    color: #585555;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: white;
+    border: 0.5px solid grey;
+    padding: 20px;
+    margin: 20px;
+    width: 60vw;
+    align-self: center;
+  }
+
+  .notshowondesktop {
+    display: none;
+  }
+
+  .about-Email {
+    padding-bottom: 30px;
+  }
+
+  .Desktop-text {
+    display: block;
+  }
+
+  .About-logo {
+    width: 25vw;
+    height: 20vh;
+  }
+
+  .notshowonmobile {
+    display: block;
+  }
+
+  .aboutfooterhead {
+    display: none;
+  }
+
+  .aboutfooterfoot {
+    width: 100vw;
+    background-color: #2a2a2a;
+
+    p {
+      color: white !important;
+      padding-top: 25px;
+    }
+  }
+
+  .pastimages {
+    flex-direction: row;
+    width: 100vw;
+    padding: 50px;
+  }
+}

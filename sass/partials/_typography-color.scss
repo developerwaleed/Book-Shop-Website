@@ -1,0 +1,29 @@
+$bg-color: #272a31;
+$primarycolor: #ec5242;
+$color3: #d3d3d3;
+$color4: #f7f7f8;
+$color5: #4f4f4f;
+$rempad: 1rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: $bg-color;
+  font-family: 'Lato', sans-serif;
+}
+
+.numberclass {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder !important;
+}
+
+.numberclasswthoutcolor {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder !important;
+  color: #4f4f4f !important;
+}
