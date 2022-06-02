@@ -1,6 +1,8 @@
 # microverse-capstone-project-one
 
-> This is my capstone project on HTML + CSS + JAVASCRIPT. It's centred towards a Book Store and showcases the different types of Books that are available to be sold. It also makes use of dynamic Books content ib Book-Section and in Hot-Selling-Books that is coming from javascript and render into the DOM.
+🔥 This is my capstone project on HTML + CSS + JAVASCRIPT.😉 It's centred towards a Book Store and showcases the different types of Books that are available to be sold. It is dynamic as all the books in sectrion are redered using JAVASCRIPT. 🙌
+
+## Welcome! 👋
 
 Homepage view                                     |  Book-Section view                             |
 :------------------------------------------------:|:-----------------------------------------------:
@@ -20,10 +22,11 @@ Desktop Landing
 
 ## Built With
 
-- HTML, SASS
-- Grid, FlexBox is used to position the elements in DOM.
-- Javascript is used to make the website Interactive.
-- Linter is used to make the project useable and readble for everyone
+- ✔️ HTML, SASS
+- ✔️ Grid, FlexBox is used to position the elements in DOM.😉
+- ✔️ Javascript is used to make the website Interactive.😋
+- ✔️ Linter is used to make the project Error Free.✅
+- ✔️ SASS is used to push the powers of css. 🔥
 
 ## Live Demo (if available)
 
@@ -33,8 +36,9 @@ Desktop Landing
 
 👤 **Waleed Amjad**
 
-- GitHub: [@githubhandle](https://github.com/caasperr)
--TwitterL [@developerwaleed] (https://twitter.com/developerwaleed)
+| 👤 Name | Github | Twitter | LinkedIn |
+|------|--------|---------|----------|
+|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)||
 
 ## Show your support
 
