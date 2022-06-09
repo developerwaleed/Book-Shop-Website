@@ -30,7 +30,7 @@ Desktop Landing
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://caasperr.github.io/Book-Store_Website)
+[Live Demo Link](https://caasperr.github.io/Book-Store_Website-V2/)
 
 ## Authors
 
