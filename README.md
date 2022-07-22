@@ -4,22 +4,6 @@
 
 ## Welcome! 👋
 
-Homepage view                                     |  Book-Section view                             |
-:------------------------------------------------:|:-----------------------------------------------:
-![](./img/ScreenShots/Homepage.png)           |  ![](./img/ScreenShots/Book-Section.PNG)
-
-Hot-Selling-Books View                            |  About view
-:------------------------------------------------:|:-----------------------------------------------:
-![](./img/ScreenShots/Hot-Selling-Books.PNG)      |  ![](./img/ScreenShots/About.PNG)
-
-About second view                                 |  About footer view
-:------------------------------------------------:|:-----------------------------------------------:
-![](./img/ScreenShots/About-second.PNG)           |  ![](./img/ScreenShots/about-footer.PNG)
-
-Desktop Landing                                  
-:--------------------------------------------------------------------------------------------------:
-![](./img/ScreenShots/Desktop.PNG)   
-
 ## Built With
 
 - ✔️ HTML, SASS
