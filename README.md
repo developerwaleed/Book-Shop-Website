@@ -4,6 +4,8 @@
 
 ## Welcome! 👋
 
+![App Screenshot](./img/ScreenShots/mock3.png)
+
 ## Built With
 
 - ✔️ HTML, SASS
