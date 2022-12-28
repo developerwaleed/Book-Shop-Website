@@ -1,39 +1,203 @@
-# microverse-capstone-project-one
+<a name="readme-top"></a>
 
-🔥 This is my capstone project on HTML + CSS + JAVASCRIPT.😉 It's centred towards a Book Store and showcases the different types of Books that are available to be sold. It is dynamic as all the books in sectrion are redered using JAVASCRIPT. 🙌
 
-## Welcome! 👋
+<div align="center">
+  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+</div>
 
-![App Screenshot](./img/ScreenShots/mock3.png)
+<!-- TABLE OF CONTENTS -->
 
-## Built With
+# 📗 Table of Contents
 
-- ✔️ HTML, SASS
-- ✔️ Grid, FlexBox is used to position the elements in DOM.😉
-- ✔️ Javascript is used to make the website Interactive.😋
-- ✔️ Linter is used to make the project Error Free.✅
-- ✔️ SASS is used to push the powers of css. 🔥
+<details>
+  <summary>Click to view contents</summary>
+  <ol>
+    <li>
+      <a href="#about-project">📖 About the Project</a>
+        <ul>
+          <li><a href="#video">📹 Video</a></li>
+          <li>
+            <a href="#built-with">🛠 Built With</a>
+            <ul>
+              <li><a href="#tech-stack">Tech Stack</a></li>
+              <li><a href="#key-features">Key Features</a></li>
+            </ul>
+          </li>
+          <li><a href="#live-demo">🚀 Live Demo</a></li>
+        </ul>
+    </li>
+    <li>
+      <a href="#getting-started">💻 Getting Started</a>
+      <ul>
+        <li><a href="#setup">Setup</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#install">Install</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#run-tests">Run tests</a></li>
+        <li><a href="#deployment">Deployment</a></li>
+      </ul>
+    </li>
+    <li><a href="#authors">👥 Authors</a></li>
+    <li><a href="#future-features">🔭 Future Features</a></li>
+    <li><a href="#contributing">🤝 Contributing</a></li>
+    <li><a href="#support">⭐️ Show your support</a></li>
+    <li><a href="#acknowledgements">🙏 Acknowledgements</a></li>
+    <li><a href="#faq">❓ FAQ</a></li>
+    <li><a href="#license">📝 License</a></li>
+  </ol>
+</details>
 
-## Live Demo (if available)
+<!-- PROJECT DESCRIPTION -->
 
-[Live Demo Link](https://developerwaleed.github.io/Book-Store_Website-V2/)
+# 📖 Book Store <a name="about-project"></a>
 
-## Authors
+**Book Shop** is a static website. It displays all the information related to shop. The Website can be edited to any version required easily.
 
-👤 **Waleed Amjad**
+<div align="center"><img src='./img/ScreenShots/mock3.png' width="700"></div>
 
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+- HTML
+- CSS
+- JavaScript
+
+<details>
+<summary>Client</summary>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Built using only HTML, CSS, JavaScript
+- Easy to edit and create another similar feature website.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+[Click Here for live Version!](https://developerwaleed.github.io/Book-Store_Website-V2/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+- Live Server
+
+### Setup
+
+#### Github
+- Enter this url: [https://github.com/developerwaleed/Book-Store_Website-V2/](https://github.com/developerwaleed/Book-Store_Website-V2/) in your web browser.
+- Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+- Select the download Zip option from drop-down menu.
+- Once the download is complete you will be able to access my project locally.
+
+#### Local (Terminal)
+
+```sh
+  git clone https://github.com/developerwaleed/Book-Store_Website-V2.git
+  cd Book-Store_Website-V2
+```
+
+### Install
+
+no dependencies
+
+
+### Usage
+
+To run the project, execute the following command:
+
+- Run `npm run start` or `npm start` to start a development server.
+
+### Run tests
+
+To run tests, run the following command:
+
+```
+npm run test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+- Github Pages
+- Netlify
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+## 👥 Authors <a name="author"></a>
 | 👤 Name | Github | Twitter | LinkedIn |
 |------|--------|---------|----------|
-|Waleed Amjad|[@caasper](https://github.com/caasperr)|[@developerwaleed](https://twitter.com/developerwaleed)|[Waleed Amjad](https://www.linkedin.com/in/waleed-amjad-51930014a/)||
+|Waleed Amjad|[@caasperr](https://github.com/developerwaleed)|[@developerwaleed](https://twitter.com/developerwaleed)|[@developerwaleed](https://www.linkedin.com/in/developerwaleed/)|
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Show your support
+<!-- FUTURE FEATURES -->
 
-Give a ⭐️ if you like this project!
+## 🔭 Future Features <a name="future-features"></a>
 
-- microverseinc for the readme template
-- Julieta Ulanovsky, Sol Matas, Juan Pablo del Peral and Jacques Le Bailly from [Freepik](https://twitter.com/DeeMaejor) for the background images
-- Thanks to [Cindy shin](https://www.behance.net/adagio07) for the design.
+- Currently none.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-All rights reserved.
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue, feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project. Don't forget to give it a ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- A big thanks to [@microverseinc](https://github.com/microverseinc) for the project idea, guidance and inspiration.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ  -->
+
+## ❓ FAQ <a name="faq"></a>
+
+- **What inspired me to create this project?**
+
+  - The inspiration for this project came from microverse – a software development bootcamp where you work with teammates remotely on different projects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
