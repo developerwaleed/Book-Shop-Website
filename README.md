@@ -50,7 +50,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Book Shop <a name="about-project"></a>
 
 **Book Shop** is a static website. It displays all the information related to shop. The Website can be edited to any version required easily.
 
@@ -97,7 +97,7 @@ To get a local copy up and running, follow these steps.
 ### Setup
 
 #### Github
-- Enter this url: [https://github.com/developerwaleed/Book-Store_Website-V2/](https://github.com/developerwaleed/Book-Store_Website-V2/) in your web browser.
+- Enter this url: [https://github.com/developerwaleed/Book-Shop-Website](https://github.com/developerwaleed/Book-Shop-Website) in your web browser.
 - Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
 - Select the download Zip option from drop-down menu.
 - Once the download is complete you will be able to access my project locally.
@@ -105,8 +105,8 @@ To get a local copy up and running, follow these steps.
 #### Local (Terminal)
 
 ```sh
-  git clone https://github.com/developerwaleed/Book-Store_Website-V2.git
-  cd Book-Store_Website-V2
+  git clone https://github.com/developerwaleed/Book-Shop-Website.git
+  cd Book-Shop-Website
 ```
 
 ### Install
