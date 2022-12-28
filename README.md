@@ -80,7 +80,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Click Here for live Version!](https://developerwaleed.github.io/Book-Store_Website-V2/)
+[Click Here for live Version!](https://developerwaleed.github.io/Book-Shop-Website/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
