@@ -116,9 +116,8 @@ no dependencies
 
 ### Usage
 
-To run the project, execute the following command:
-
-- Run `npm run start` or `npm start` to start a development server.
+To run the project:
+- Open `index.html` on live server.
 
 ### Run tests
 
